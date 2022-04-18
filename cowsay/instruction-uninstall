@@ -1,7 +1,4 @@
 cd "$1"
-echo "######"
-echo UNINSTALLING
-echo "######"
 cowsay "Goodbye"
 sleep 3
 echo "Deleting every file created by install.sh"

@@ -1,6 +1,3 @@
 cd "$1"
-echo "######"
-echo INSTALLING
-echo "######"
 cd build
 su -c "make install"

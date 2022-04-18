@@ -1,7 +1,4 @@
 cd "$1"
-echo "######"
-echo CONFIGURING
-echo "######"
 mkdir -v build
 cd build
 cmake ..

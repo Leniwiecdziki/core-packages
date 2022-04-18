@@ -1,5 +1,2 @@
 cd "$1"
-echo "######"
-echo CLEANING
-echo "######"
-rm -rfv doas
+echo Nothing to do

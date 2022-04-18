@@ -1,6 +1,3 @@
-echo "######"
-echo UNPACKING
-echo "######"
 tar xfv gmp.tar.xz
 rm gmp.tar.xz
 mv gmp-6.2.1 gmp
