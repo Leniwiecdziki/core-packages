@@ -1,0 +1,6 @@
+cd "$1"
+echo "######"
+echo COMPILING
+echo "######"
+cd build
+ninja

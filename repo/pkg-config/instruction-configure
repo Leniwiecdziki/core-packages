@@ -1,0 +1,6 @@
+cd "$1"
+echo "######"
+echo CONFIGURING
+echo "######"
+./autogen.sh
+./configure

@@ -1,0 +1,6 @@
+echo "######"
+echo PREPARING
+echo "######"
+echo Upgrading python-pip
+echo Assuming that you have python installed
+python -m pip install --upgrade pip

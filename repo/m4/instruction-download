@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo DOWNLOAD
+echo "######"
+git clone -b branch-1.4 git://git.savannah.gnu.org/m4.git

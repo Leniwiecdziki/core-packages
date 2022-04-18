@@ -1,0 +1,11 @@
+echo "######"
+echo PREPARING
+echo "######"
+echo "Don't forget to configure DOAS or it will be unusable"
+echo "######"
+echo -ne "The doas configuration file is located at /usr/local/etc/doas.conf or /opt/local/etc/doas.conf for illumos.
+To create a rule allowing a user to perform admin actions, 
+add a line to the configuration file. 
+
+permit <user> as root
+"

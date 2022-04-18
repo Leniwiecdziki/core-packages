@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo DOWNLOAD
+echo "######"
+wget http://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz -o bash.tar.gz
