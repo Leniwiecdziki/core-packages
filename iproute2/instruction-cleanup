@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo CLEANING
+echo "######"
+exit 1

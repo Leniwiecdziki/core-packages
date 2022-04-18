@@ -1,0 +1,6 @@
+echo "######"
+echo UNPACKING
+echo "######"
+tar xvf ncurses-6.3.tar.gz
+mv ncurses-6.3 ncurses
+rm ncurses-6.3.tar.gz

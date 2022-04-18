@@ -1,0 +1,7 @@
+cd "$1"
+echo "######"
+echo CONFIGURING
+echo "######"
+mkdir build
+cd build
+meson ..

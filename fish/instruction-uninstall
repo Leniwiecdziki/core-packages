@@ -1,0 +1,6 @@
+cd "$1"
+echo "######"
+echo UNINSTALLING
+echo "######"
+echo "Removing files..."
+su -c "rm -rfv /usr/local/share/doc/fish /usr/local/share/fish /usr/local/etc/fish /usr/local/bin/fish "
