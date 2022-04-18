@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo UNINSTALLING
+echo "######"
+su -c "make uninstall"

@@ -1,0 +1,6 @@
+cd "$1"
+echo "######"
+echo UNINSTALLING
+echo "######"
+cd build
+su -c "cat install_manifest.txt | xargs rm -v"

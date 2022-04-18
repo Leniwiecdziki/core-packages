@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo INSTALLING
+echo "######"
+su -c "make install"

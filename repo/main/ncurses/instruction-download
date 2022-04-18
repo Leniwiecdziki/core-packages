@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo DOWNLOAD
+echo "######"
+curl https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.3.tar.gz -o ncurses-6.3.tar.gz

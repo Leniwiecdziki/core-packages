@@ -1,0 +1,5 @@
+cd "$1"
+echo "######"
+echo COMPILING
+echo "######"
+make CMAKE_BUILD_TYPE=RelWithDebInfo

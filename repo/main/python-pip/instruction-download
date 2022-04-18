@@ -1,0 +1,7 @@
+cd "$1"
+echo "######"
+echo DOWNLOAD
+echo "######"
+mkdir python-pip
+cd python-pip
+wget https://bootstrap.pypa.io/get-pip.py

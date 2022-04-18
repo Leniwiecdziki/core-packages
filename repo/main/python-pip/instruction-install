@@ -1,0 +1,6 @@
+cd "$1"
+echo "######"
+echo INSTALLING
+echo "######"
+cd python-pip
+python get-pip.py
