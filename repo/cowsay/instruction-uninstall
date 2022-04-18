@@ -1,8 +1,0 @@
-cd "$1"
-echo "######"
-echo UNINSTALLING
-echo "######"
-cowsay "Goodbye"
-sleep 3
-echo "Deleting every file created by install.sh"
-su -c "rm -rfv /usr/local/bin/cowsay /usr/local/bin/cowthink /usr/local/man/man1/cowsay.1 /usr/local/man/man1/cowthink.1 /usr/local/share/cows"

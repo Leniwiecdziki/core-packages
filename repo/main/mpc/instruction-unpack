@@ -1,6 +1,0 @@
-echo "######"
-echo UNPACKING
-echo "######"
-tar xfv mpc.tar.gz
-rm mpc.tar.gz
-mv mpc-1.2.1/ mpc

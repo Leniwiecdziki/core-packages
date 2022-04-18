@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo DOWNLOAD
-echo "######"
-curl https://ftp.gnu.org/gnu/mpc/mpc-1.2.1.tar.gz -o mpc.tar.gz

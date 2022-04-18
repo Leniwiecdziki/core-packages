@@ -1,8 +1,0 @@
-cd "$1"
-echo "######"
-echo UNPACKING
-echo "######"
-tar xfv gawk.tar.gz -C gawk
-rm gawk.tar.gz -v
-cd gawk
-mv gawk-*/* . -v

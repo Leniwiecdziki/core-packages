@@ -1,8 +1,0 @@
-cd "$1"
-echo "######"
-echo UNPACKING
-echo "######"
-rmdir grep
-tar xfv grep.tar.gz
-rm grep.tar.gz
-mv grep-* grep

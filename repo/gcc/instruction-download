@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo DOWNLOAD
-echo "######"
-git clone https://github.com/gcc-mirror/gcc.git

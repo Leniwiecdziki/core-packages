@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo UNPACKING
-echo "######"
-tar xf bash.tar.gz -C .

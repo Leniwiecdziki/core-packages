@@ -1,5 +1,2 @@
 cd "$1"
-echo "######"
-echo INSTALLING
-echo "######"
 su -c "cp meson.py /usr/bin/meson; mkdir /usr/lib/python3.10/site-packages/mesonbuild/; cp -rv mesonbuild/ /usr/lib/python3.10/site-packages/"

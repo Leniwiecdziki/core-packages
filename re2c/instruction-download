@@ -1,5 +1,2 @@
 cd "$1"
-echo "######"
-echo DOWNLOAD
-echo "######"
 git clone https://github.com/skvadrik/re2c.git

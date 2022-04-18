@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo DOWNLOAD
-echo "######"
-curl https://ftp.gnu.org/gnu/grep/grep-3.7.tar.gz -o grep.tar.gz

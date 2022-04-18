@@ -1,8 +1,0 @@
-cd "$1"
-echo "######"
-echo COMPILING
-echo "######"
-mkdir build
-cd build
-cmake ..
-make

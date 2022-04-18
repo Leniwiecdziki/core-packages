@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo UNPACKING
-echo "######"
-echo Nothing to do

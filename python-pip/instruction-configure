@@ -1,5 +1,2 @@
 cd "$1"
-echo "######"
-echo CONFIGURING
-echo "######"
-echo Skip
+echo Nothing to do

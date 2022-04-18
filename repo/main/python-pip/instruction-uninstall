@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo UNINSTALLING
-echo "######"
-su -c "rm -rfv /usr/share/man/man1/pip* /usr/lib/python3.10/site-packages/pip/"

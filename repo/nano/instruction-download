@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo DOWNLOAD
-echo "######"
-git clone git://git.savannah.gnu.org/nano.git

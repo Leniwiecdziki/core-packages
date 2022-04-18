@@ -1,6 +1,3 @@
 cd "$1"
-echo "######"
-echo UNINSTALLING
-echo "######"
 echo "This product lacks uninstall method. Sorry."
 exit 1

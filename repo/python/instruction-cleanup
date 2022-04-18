@@ -1,5 +1,0 @@
-cd "$1"
-echo "######"
-echo CLEANING
-echo "######"
-rm -rfv python

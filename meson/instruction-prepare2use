@@ -1,5 +1,2 @@
 cd "$1"
-echo "######"
-echo PREPARING
-echo "######"
-echo Skip
+echo Nothing to do
