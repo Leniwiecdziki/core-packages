@@ -1,0 +1,6 @@
+cd "$1"
+make
+echo "###"
+echo "Testing is recommended by OpenSSL's developers"
+echo "###"
+make test

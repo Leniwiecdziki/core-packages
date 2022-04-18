@@ -1,0 +1,2 @@
+cd "$1"
+su -c "rm -rfv /usr/local/bin/git /usr/local/bin/gitk /usr/local/bin/git-* /usr/local/libexec/git-core/ /usr/local/share/git-* /usr/local/share/gitk /usr/local/share/gitweb /usr/local/share/locale/*/LC_MESSAGES/git.mo /usr/local/share/perl5/Git /usr/local/share/perl5/Git.pm /usr/local/share/perl5/FromCPAN"

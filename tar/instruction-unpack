@@ -1,0 +1,3 @@
+tar xfv tar.tar.xz
+rm tar.tar.xz
+mv tar-* tar

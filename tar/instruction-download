@@ -1,0 +1,2 @@
+cd "$1"
+curl https://ftp.gnu.org/gnu/tar/tar-latest.tar.xz -o tar.tar.xz
