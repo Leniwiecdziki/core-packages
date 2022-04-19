@@ -1,0 +1,3 @@
+cd "$1"
+cd build
+su -c "make install"

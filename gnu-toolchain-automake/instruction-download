@@ -1,0 +1,2 @@
+cd "$1"
+git clone https://github.com/autotools-mirror/automake.git gnu-toolchain-automake

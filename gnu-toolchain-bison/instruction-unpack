@@ -1,0 +1,3 @@
+tar xfv bison.tar.xz
+rm bison.tar.xz
+mv bison-* gnu-toolchain-bison

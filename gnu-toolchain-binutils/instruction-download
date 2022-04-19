@@ -1,0 +1,2 @@
+cd "$1"
+curl https://ftp.gnu.org/gnu/binutils/binutils-2.38.tar.gz -o binutils.tar.gz

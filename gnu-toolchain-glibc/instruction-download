@@ -1,0 +1,2 @@
+cd "$1"
+curl https://ftp.gnu.org/gnu/glibc/glibc-2.35.tar.xz -o glibc.tar.xz

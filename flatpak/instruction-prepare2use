@@ -1,0 +1,8 @@
+echo "###"
+echo "Enabling Flathub repository"
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+echo "Done."
+echo ""
+echo "###"
+echo "Reboot your system before first use."
+echo "###"

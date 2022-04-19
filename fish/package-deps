@@ -1,4 +1,3 @@
-g++
 cmake
 pcre2
 gettext

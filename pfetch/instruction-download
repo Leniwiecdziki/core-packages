@@ -1,0 +1,2 @@
+cd "$1"
+curl https://codeload.github.com/dylanaraps/pfetch/tar.gz/refs/tags/0.6.0 -o pfetch.tar.gz

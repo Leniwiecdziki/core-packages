@@ -1,0 +1,2 @@
+cd "$1"
+curl https://ftp.gnu.org/gnu/wget/wget-latest.tar.gz -o wget.tar.gz

@@ -1,0 +1,3 @@
+cd "$1"
+This package can't be uninstalled!
+exit 1

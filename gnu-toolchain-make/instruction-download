@@ -1,0 +1,2 @@
+cd "$1"
+curl https://ftp.gnu.org/gnu/make/make-4.3.tar.gz -o make.tar.gz

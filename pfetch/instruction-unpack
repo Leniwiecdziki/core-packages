@@ -1,0 +1,3 @@
+tar xfv pfetch.tar.gz
+rm pfetch.tar.gz
+mv pfetch-* pfetch

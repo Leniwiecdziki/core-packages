@@ -1,0 +1,4 @@
+cd "$1"
+git clone -b branch-1.4 git://git.savannah.gnu.org/m4.git gnu-toolchain-m4
+cd gnu-toolchain-m4
+./bootstrap

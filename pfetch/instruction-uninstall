@@ -1,0 +1,2 @@
+cd "$1"
+su -c "rm /bin/pfetch"

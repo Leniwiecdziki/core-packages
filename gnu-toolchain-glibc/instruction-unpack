@@ -1,0 +1,3 @@
+tar xfv glibc.tar.xz
+rm glibc.tar.xz
+mv glibc-* gnu-toolchain-glibc

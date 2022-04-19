@@ -1,0 +1,3 @@
+tar xfv wget.tar.gz
+rm wget.tar.gz
+mv wget-* wget

@@ -1,0 +1,13 @@
+gtk-doc
+gobject-introspection
+libcap
+libarchive
+libsoup
+libxml2
+gpgme
+polkit
+libXau
+ostree
+json-glib
+appstream
+libseccomp
