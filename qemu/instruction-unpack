@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv qemu.tar.xz
+rm qemu.tar.xz
+mv qemu-*/* qemu
+rm -rfv qemu-*

@@ -1,5 +1,5 @@
 cd "$1"
 tar xfv vim.tar.bz2
 rm vim.tar.bz2
-mv vim-*/* gvim
-rm -rfv vim-*
+mv vim81/* gvim
+rm -rfv vim81
