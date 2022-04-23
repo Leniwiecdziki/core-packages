@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv openssh.tar.gz
+rm openssh.tar.gz
+mv openssh-*/* openssh
+rm -rfv openssh-*

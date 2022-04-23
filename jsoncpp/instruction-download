@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/open-source-parsers/jsoncpp.git
+curl https://codeload.github.com/open-source-parsers/jsoncpp/tar.gz/refs/tags/1.9.5 -o jsoncpp.tar.gz

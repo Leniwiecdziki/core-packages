@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://gitlab.com/bzip2/bzip2.git
+curl https://sourceware.org/pub/bzip2/bzip2-latest.tar.gz -o bzip2.tar.gz

@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv sed.tar.gz
+rm sed.tar.gz
+mv sed-*/* sed
+rm -rfv sed-*

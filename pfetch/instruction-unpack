@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv pfetch.tar.gz
 rm pfetch.tar.gz
-mv pfetch-* pfetch
+mv pfetch-*/* pfetch
+rm -rfv pfetch-*

@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv opendoas.tar.xz
+rm opendoas.tar.xz
+mv opendoas-*/* opendoas
+rm -rfv opendoas-*

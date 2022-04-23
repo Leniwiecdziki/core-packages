@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv ffmpeg.tar.xz
+rm ffmpeg.tar.xz
+mv ffmpeg-*/* ffmpeg
+rm -rfv ffmpeg-*

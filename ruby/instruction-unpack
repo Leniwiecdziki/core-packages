@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv ruby.tar.gz
+rm ruby.tar.gz
+mv ruby-*/* ruby
+rm -rfv ruby-*

@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv busybox.tar.bz2
+rm busybox.tar.bz2
+mv busybox-*/* busybox
+rm -rfv busybox-*

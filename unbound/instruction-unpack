@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv unbound.tar.gz
+rm unbound.tar.gz
+mv unbound-*/* unbound
+rm -rfv unbound-*

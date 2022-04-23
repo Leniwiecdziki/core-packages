@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv npth.tar.bz2
+rm npth.tar.bz2
+mv npth-*/* npth
+rm -rfv npth-*

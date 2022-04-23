@@ -1,0 +1,2 @@
+cd "$1"
+curl https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz -o python3.tar.gz

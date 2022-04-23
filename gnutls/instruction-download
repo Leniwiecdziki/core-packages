@@ -1,0 +1,2 @@
+cd "$1"
+curl https://www.gnupg.org/ftp/gcrypt/gnutls/v3.6/gnutls-3.6.16.tar.xz -o gnutls.tar.xz

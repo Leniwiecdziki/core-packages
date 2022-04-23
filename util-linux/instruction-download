@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/util-linux/util-linux.git -b stable/v2.20
+curl https://codeload.github.com/util-linux/util-linux/tar.gz/refs/tags/v2.38 -o util-linux.tar.gz

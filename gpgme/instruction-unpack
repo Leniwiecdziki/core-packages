@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv gpgme.tar.bz2
+rm gpgme.tar.bz2
+mv gpgme-*/* gpgme
+rm -rfv gpgme-*

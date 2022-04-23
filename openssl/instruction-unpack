@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv openssl.tar.gz
+rm openssl.tar.gz
+mv openssl-*/* openssl
+rm -rfv openssl-*

@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv bashtop.tar.gz
+rm bashtop.tar.gz
+mv bashtop-*/* bashtop
+rm -rfv bashtop-*

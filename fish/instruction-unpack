@@ -1,2 +1,5 @@
 cd "$1"
-echo Nothing to do
+tar xfv fish.tar.xz
+rm fish.tar.xz
+mv fish-*/* fish
+rm -rfv fish-*

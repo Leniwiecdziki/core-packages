@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv bzip2.tar.gz
+rm bzip2.tar.gz
+mv bzip2-*/* bzip2
+rm -rfv bzip2-*

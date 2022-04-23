@@ -1,1 +1,5 @@
-echo "Nothing to do"
+cd "$1"
+tar xfv mpfr.tar.xz
+rm mpfr.tar.xz
+mv mpfr-*/* mpfr
+rm -rfv mpfr-*

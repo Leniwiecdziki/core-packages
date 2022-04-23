@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv libcap.tar.xz
 rm libcap.tar.xz
-mv libcap-* libcap
+mv libcap-*/* libcap
+rm -rfv libcap-*

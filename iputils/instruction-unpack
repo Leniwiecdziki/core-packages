@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv iputils.tar.gz
+rm iputils.tar.gz
+mv iputils-*/* iputils
+rm -rfv iputils-*

@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv tar.tar.xz
 rm tar.tar.xz
-mv tar-* tar
+mv tar-*/* tar
+rm -rfv tar-*

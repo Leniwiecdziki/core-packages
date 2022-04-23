@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv nettle.tar.gz
+rm nettle.tar.gz
+mv nettle-*/* libnettle
+rm -rfv nettle-*

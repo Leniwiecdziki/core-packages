@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv glibc.tar.xz
 rm glibc.tar.xz
-mv glibc-* gnu-toolchain-glibc
+mv glibc-*/* gnu-toolchain-glibc
+rm -rfv glibc-*

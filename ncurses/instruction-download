@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.3.tar.gz -o ncurses-6.3.tar.gz
+curl https://ftp.gnu.org/pub/gnu/ncurses/ncurses-6.3.tar.gz -o ncurses.tar.gz

@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/flatpak/flatpak.git
+curl https://codeload.github.com/flatpak/flatpak/tar.gz/refs/tags/1.12.7 -o flatpak.tar.gz

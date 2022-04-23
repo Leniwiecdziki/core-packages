@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv btop.tar.gz
+rm btop.tar.gz
+mv btop-*/* btop++
+rm -rfv btop-*

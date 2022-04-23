@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv perl.tar.gz
+rm perl.tar.gz
+mv perl-*/* perl
+rm -rfv perl-*

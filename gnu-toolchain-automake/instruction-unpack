@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv gnu-toolchain-automake.tar.gz
+rm gnu-toolchain-automake.tar.gz
+mv gnu-toolchain-automake-*/* gnu-toolchain-automake
+rm -rfv gnu-toolchain-automake-*

@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/aristocratos/bashtop.git
+curl https://codeload.github.com/aristocratos/bashtop/tar.gz/refs/tags/v0.9.25 -o bashtop.tar.gz

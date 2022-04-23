@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv libtool.tar.gz
+rm libtool.tar.gz
+mv libtool-*/* gnu-toolchain-libtool
+rm -rfv libtool-*

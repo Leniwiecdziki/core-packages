@@ -1,0 +1,2 @@
+cd "$1"
+su -c "rm -v /usr/bin/neofetch"

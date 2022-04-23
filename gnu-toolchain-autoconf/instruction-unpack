@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv gnu-toolchain-autoconf.tar.gz
+rm gnu-toolchain-autoconf.tar.gz
+mv gnu-toolchain-autoconf-*/* gnu-toolchain-autoconf
+rm -rfv gnu-toolchain-autoconf-*

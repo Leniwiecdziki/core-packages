@@ -1,3 +1,5 @@
-tar xvf ncurses-6.3.tar.gz
-mv ncurses-6.3 ncurses
-rm ncurses-6.3.tar.gz
+cd "$1"
+tar xfv ncurses.tar.gz
+rm ncurses.tar.gz
+mv ncurses-*/* ncurses
+rm -rfv ncurses-*

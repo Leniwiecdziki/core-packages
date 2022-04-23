@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/mesonbuild/meson.git
+curl https://codeload.github.com/mesonbuild/meson/tar.gz/refs/tags/0.61.4 -o meson.tar.gz

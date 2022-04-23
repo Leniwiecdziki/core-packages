@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv gettext.tar.gz
+rm gettext.tar.gz
+mv gettext-*/* gettext
+rm -rfv gettext-*

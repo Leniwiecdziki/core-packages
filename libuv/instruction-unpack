@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv libuv.tar.gz
+rm libuv.tar.gz
+mv libuv-*/* libuv
+rm -rfv libuv-*

@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv xz.tar.gz
+rm xz.tar.gz
+mv xz-*/* xz
+rm -rfv xz-*

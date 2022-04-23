@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv jsoncpp.tar.gz
+rm jsoncpp.tar.gz
+mv jsoncpp-*/* jsoncpp
+rm -rfv jsoncpp-*

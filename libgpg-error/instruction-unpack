@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv libgpg-error.tar.bz2
+rm libgpg-error.tar.bz2
+mv libgpg-error-*/* libgpg-error
+rm -rfv libgpg-error-*

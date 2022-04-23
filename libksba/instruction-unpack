@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv libksba.tar.bz2
+rm libksba.tar.bz2
+mv libksba-*/* libksba
+rm -rfv libksba-*

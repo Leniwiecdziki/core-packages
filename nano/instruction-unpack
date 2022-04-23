@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv nano.tar.gz
+rm nano.tar.gz
+mv nano-*/* nano
+rm -rfv nano-*

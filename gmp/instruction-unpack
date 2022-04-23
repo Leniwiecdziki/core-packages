@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv gmp.tar.xz
 rm gmp.tar.xz
-mv gmp-6.2.1 gmp
+mv gmp-*/* gmp
+rm -rfv gmp-*

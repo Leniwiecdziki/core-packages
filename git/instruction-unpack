@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv git.tar.xz
 rm git.tar.xz
-mv git-* git
+mv git-*/* git
+rm -rfv git-*

@@ -1,0 +1,3 @@
+cd "$1"
+Build directory is now empty.
+Now you can remove busybox binary inside your system and every symlink to it.

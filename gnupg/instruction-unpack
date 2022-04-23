@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv gnupg.tar.bz2
+rm gnupg.tar.bz2
+mv gnupg-*/* gnupg
+rm -rfv gnupg-*

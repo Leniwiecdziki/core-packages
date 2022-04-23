@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv neovim.tar.gz
+rm neovim.tar.gz
+mv neovim-*/* neovim
+rm -rfv neovim-*

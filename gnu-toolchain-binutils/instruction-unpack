@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv binutils.tar.gz
 rm binutils.tar.gz
-mv binutils-* gnu-toolchain-binutils
+mv binutils-*/* gnu-toolchain-binutils
+rm -rfv binutils-*

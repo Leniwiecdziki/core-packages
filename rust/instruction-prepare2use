@@ -1,0 +1,4 @@
+cd "$1"
+echo "###"
+echo "You're now ready to use Rust c:"
+echo "###"

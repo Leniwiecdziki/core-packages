@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv rhash.tar.gz
+rm rhash.tar.gz
+mv RHash-*/* rhash
+rm -rfv RHash-*

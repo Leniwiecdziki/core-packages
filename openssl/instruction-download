@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/openssl/openssl.git
+curl https://www.openssl.org/source/openssl-3.0.2.tar.gz -o openssl.tar.gz

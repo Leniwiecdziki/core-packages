@@ -1,0 +1,5 @@
+cd "$1"
+su -c "cd /usr/local/bin/; rm corelist encguess h2ph instmodsh libnetcfg perlbug perlivp perl5.34.1 pl2pm pod2html pod2text prove ptardiff shasum streamzip zipdetails cpan enc2xs h2xs json_pp perl perldoc perlthanks piconv podchecker pod2man pod2usage ptar ptargrep splain xsubpp; rm -rf /usr/local/lib/perl5; cd /usr/local/share/man/man1/; rm -rf perl* corelist.1 cpan.1 encguess.1 enc2xs.1 h2ph.1 h2xs.1 instmodsh.1 json_pp.1 libnetcfg.1 zipdetails.1 xsubpp.1 streamzip.1 splain.1 shasum.1 ptargrep.1 ptar.1 ptardiff.1 prove.1 pod2* piconv.1 pl2pm.1"
+echo "###"
+echo "Perl is gone :c"
+echo "###"

@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv python3.tar.gz
+rm python3.tar.gz
+mv python3-*/* python3
+rm -rfv python3-*

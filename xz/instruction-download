@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/xz-mirror/xzgit
+curl https://tukaani.org/xz/xz-5.2.5.tar.gz -o xz.tar.gz

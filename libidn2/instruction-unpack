@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv libidn2.tar.gz
+rm libidn2.tar.gz
+mv libidn2-*/* libidn2
+rm -rfv libidn2-*

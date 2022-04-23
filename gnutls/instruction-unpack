@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv gnutls.tar.xz
+rm gnutls.tar.xz
+mv gnutls-*/* gnutls
+rm -rfv gnutls-*

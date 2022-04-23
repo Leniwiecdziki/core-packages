@@ -1,2 +1,5 @@
 cd "$1"
-tar xf bash.tar.gz -C .
+tar xfv bash.tar.gz
+rm bash.tar.gz
+mv bash-*/* bash
+rm -rfv bash-*

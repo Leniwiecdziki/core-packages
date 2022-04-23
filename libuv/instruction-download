@@ -1,4 +1,2 @@
 cd "$1"
-git clone https://github.com/libuv/libuv.git
-cd libuv
-./autogen.sh
+curl https://codeload.github.com/libuv/libuv/tar.gz/refs/tags/v1.44.1 -o libuv.tar.gz

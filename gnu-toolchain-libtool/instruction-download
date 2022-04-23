@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/autotools-mirror/libtool.git gnu-toolchain-libtool
+curl https://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz -o libtool.tar.gz

@@ -1,0 +1,2 @@
+cd "$1"
+su -c "/usr/local/lib/rustlib/uninstall.sh"

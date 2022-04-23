@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/Kitware/CMake.git cmake
+git clone https://gitlab.kitware.com/cmake/cmake.git -b v3.23.1

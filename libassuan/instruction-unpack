@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv libassuan.tar.bz2
+rm libassuan.tar.bz2
+mv libassuan-*/* libassuan
+rm -rfv libassuan-*

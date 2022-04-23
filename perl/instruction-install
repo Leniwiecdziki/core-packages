@@ -1,0 +1,3 @@
+cd "$1"
+su -c "mkdir /opt/perl5 -pv"
+su -c "make install"

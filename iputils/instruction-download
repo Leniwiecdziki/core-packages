@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/iputils/iputils.git
+curl https://codeload.github.com/iputils/iputils/tar.gz/refs/tags/20211215 -o iputils.tar.gz

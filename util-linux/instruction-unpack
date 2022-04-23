@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv util-linux.tar.gz
+rm util-linux.tar.gz
+mv util-linux-*/* util-linux
+rm -rfv util-linux-*

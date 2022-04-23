@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv ninja.tar.gz
+rm ninja.tar.gz
+mv ninja-*/* ninja
+rm -rfv ninja-*

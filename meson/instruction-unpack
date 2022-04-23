@@ -1,2 +1,5 @@
 cd "$1"
-echo "Nothing to be done"
+tar xfv meson.tar.gz
+rm meson.tar.gz
+mv meson-*/* meson
+rm -rfv meson-*

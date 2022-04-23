@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv neofetch.tar.gz
+rm neofetch.tar.gz
+mv neofetch-*/* neofetch
+rm -rfv neofetch-*

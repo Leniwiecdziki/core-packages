@@ -1,5 +1,5 @@
 cd "$1"
-tar xfv gawk.tar.gz -C gawk
-rm gawk.tar.gz -v
-cd gawk
-mv gawk-*/* . -v
+tar xfv gawk.tar.gz
+rm gawk.tar.gz
+mv gawk-*/* gawk
+rm -rfv gawk-*

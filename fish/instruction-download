@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/fish-shell/fish-shell.git fish
+curl https://github.com/fish-shell/fish-shell/releases/download/3.4.1/fish-3.4.1.tar.xz -o fish.tar.xz

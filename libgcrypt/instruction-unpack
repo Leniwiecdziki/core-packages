@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv libgcrypt.tar.bz2
+rm libgcrypt.tar.bz2
+mv libgcrypt-*/* libgcrypt
+rm -rfv libgcrypt-*

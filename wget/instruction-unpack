@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv wget.tar.gz
 rm wget.tar.gz
-mv wget-* wget
+mv wget-*/* wget
+rm -rfv wget-*

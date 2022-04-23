@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://gitlab.freedesktop.org/pkg-config/pkg-config.git
+curl https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz -o pkg-config.tar.gz

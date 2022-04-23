@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv re2c.tar.gz
+rm re2c.tar.gz
+mv re2c-*/* re2c
+rm -rfv re2c-*

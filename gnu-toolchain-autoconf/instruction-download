@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/autotools-mirror/autoconf.git gnu-toolchain-autoconf
+curl https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.gz -o gnu-toolchain-autoconf.tar.gz

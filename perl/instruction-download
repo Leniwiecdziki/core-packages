@@ -1,0 +1,2 @@
+cd "$1"
+curl https://www.cpan.org/src/5.0/perl-5.34.1.tar.gz -o perl.tar.gz

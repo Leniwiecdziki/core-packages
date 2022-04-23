@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/autotools-mirror/gettext.git
+curl https://ftp.gnu.org/pub/gnu/gettext/gettext-0.21.tar.gz -o gettext.tar.gz

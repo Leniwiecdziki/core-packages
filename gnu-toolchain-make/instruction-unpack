@@ -1,3 +1,5 @@
+cd "$1"
 tar xfv make.tar.gz
 rm make.tar.gz
-mv make-* gnu-toolchain-make
+mv make-*/* gnu-toolchain-make
+rm -rfv make-*

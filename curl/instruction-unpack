@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv curl.tar.xz
+rm curl.tar.gz
+mv curl-*/* curl
+rm -rfv curl-*

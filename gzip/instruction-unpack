@@ -1,2 +1,5 @@
 cd "$1"
-echo Nothing to do
+tar xfv gzip.tar.gz
+rm gzip.tar.gz
+mv gzip-*/* gzip
+rm -rfv gzip-*

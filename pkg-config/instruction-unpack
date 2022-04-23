@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv pkg-config.tar.gz
+rm pkg-config.tar.gz
+mv pkg-config-*/* pkg-config
+rm -rfv pkg-config-*

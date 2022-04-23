@@ -1,1 +1,5 @@
-echo Nothing to do
+cd "$1"
+tar xfv zlib.tar.gz
+rm zlib.tar.gz
+mv zlib-*/* zlib
+rm -rfv zlib-*

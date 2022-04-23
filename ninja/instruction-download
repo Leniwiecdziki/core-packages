@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/ninja-build/ninja.git
+curl https://codeload.github.com/ninja-build/ninja/tar.gz/refs/tags/v1.10.2 -o ninja.tar.gz

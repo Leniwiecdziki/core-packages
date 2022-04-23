@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv rustc.tar.gz
+rm rustc.tar.gz
+mv rust-*/* rust
+rm -rfv rust-*

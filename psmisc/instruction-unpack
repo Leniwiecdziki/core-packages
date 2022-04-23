@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv psmisc.tar.xz
+rm psmisc.tar.xz
+mv psmisc-*/* psmisc
+rm -rfv psmisc-*

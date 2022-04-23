@@ -1,0 +1,4 @@
+cd "$1"
+su -c "python x.py install"
+su -c "python x.py install cargo"
+su -c "python x.py install doc"
