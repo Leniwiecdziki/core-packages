@@ -1,3 +1,2 @@
 cd "$1"
-git clone https://github.com/shemminger/iproute2.git
-cd iproute2
+curl https://codeload.github.com/shemminger/iproute2/tar.gz/refs/tags/v5.17.0 -o iproute2.tar.gz

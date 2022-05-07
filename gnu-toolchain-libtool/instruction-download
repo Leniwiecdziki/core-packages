@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz -o libtool.tar.gz
+curl https://sunsite.icm.edu.pl/pub/gnu/libtool/libtool-2.4.6.tar.gz -o libtool.tar.gz

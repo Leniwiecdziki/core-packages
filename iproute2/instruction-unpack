@@ -1,5 +1,5 @@
 cd "$1"
-tar xfv pciutils.tar.gz
-rm pciutils.tar.gz
-mv pciutils-*/* pciutils
-rm -rfv pciutils-*
+tar xfv iproute2.tar.gz
+rm iproute2.tar.gz
+mv iproute2-*/* iproute2
+rm -rfv iproute2-*

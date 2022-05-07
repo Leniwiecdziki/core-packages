@@ -1,0 +1,2 @@
+cd "$1"
+curl http://mirror.linux-ia64.org/gnu/gcc/releases/gcc-11.3.0/gcc-11.3.0.tar.gz -o gcc.tar.gz

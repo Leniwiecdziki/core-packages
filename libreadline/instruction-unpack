@@ -1,0 +1,5 @@
+cd "$1"
+tar xfv libreadline.tar.gz
+rm libreadline.tar.gz
+mv readline-*/* libreadline
+rm -rfv readline-*

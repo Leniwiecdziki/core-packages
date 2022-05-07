@@ -1,0 +1,7 @@
+cd "$1"
+tar xfv gcc.tar.gz
+rm gcc.tar.gz
+mkdir gnu-toolchain-gcc11
+mkdir gnu-toolchain-gcc11/srcdir
+mv gcc-*/* gnu-toolchain-gcc11/srcdir/
+rm -rfv gcc-*

@@ -1,4 +1,2 @@
 cd "$1"
-mkdir -v build
-cd build
-cmake ..
+./configure --with-openssl
