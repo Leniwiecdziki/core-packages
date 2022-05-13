@@ -1,2 +1,2 @@
 cd "$1"
-curl https://curl.se/download/curl-7.83.0.tar.xz -o curl.tar.xz
+curl https://curl.se/download/curl-7.83.1.tar.xz -o curl.tar.xz
