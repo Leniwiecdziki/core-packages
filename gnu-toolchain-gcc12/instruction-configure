@@ -1,2 +1,2 @@
 cd "$1"
-srcdir/configure --disable-multilib --with-pkgversion="Core Package Manager 13.05.2022"
+srcdir/configure --disable-multilib --with-pkgversion="Core Package Manager 13.05.2022" --enable-languages=c,c++,objc,obj-c++

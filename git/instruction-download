@@ -1,2 +1,2 @@
 cd "$1"
-curl https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.36.1.tar.xz -o git.tar.xz
+curl https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.37.0.tar.xz -o git.tar.xz

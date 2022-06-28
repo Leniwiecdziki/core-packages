@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/nettle/nettle-3.7.3.tar.gz -o nettle.tar.gz
+curl https://ftp.gnu.org/gnu/nettle/nettle-3.8.tar.gz -o nettle.tar.gz

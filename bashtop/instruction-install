@@ -1,2 +1,2 @@
 cd "$1"
-su -c "cp ./bashtop /bin/bashtop"
+su -c "cp ./bashtop $2/bin/bashtop"

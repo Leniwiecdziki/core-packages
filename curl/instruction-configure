@@ -1,2 +1,2 @@
 cd "$1"
-./configure --with-openssl
+./configure --prefix="$2" --with-openssl
