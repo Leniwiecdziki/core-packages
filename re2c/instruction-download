@@ -1,2 +1,2 @@
 cd "$1"
-curl https://codeload.github.com/skvadrik/re2c/tar.gz/refs/tags/3.0 -o re2c.tar.gz
+curl -L https://codeload.github.com/skvadrik/re2c/tar.gz/refs/tags/3.0 -o re2c.tar.gz

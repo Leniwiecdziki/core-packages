@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://github.com/tcsh-org/tcsh.git
+curl -L https://astron.com/pub/tcsh/tcsh-6.24.01.tar.gz -o tcsh.tar.gz

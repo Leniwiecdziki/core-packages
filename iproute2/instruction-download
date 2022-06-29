@@ -1,2 +1,2 @@
 cd "$1"
-curl https://codeload.github.com/shemminger/iproute2/tar.gz/refs/tags/v5.17.0 -o iproute2.tar.gz
+curl -L https://codeload.github.com/shemminger/iproute2/tar.gz/refs/tags/v5.18.0 -o iproute2.tar.gz

@@ -1,2 +1,5 @@
 cd "$1"
-echo Nothing to do
+tar xfv tcsh.tar.gz
+rm tcsh.tar.gz
+mv tcsh-/* tcsh
+rm -rfv tcsh-*

@@ -1,2 +1,2 @@
 cd "$1"
-curl https://nlnetlabs.nl/downloads/unbound/unbound-1.15.0.tar.gz -o unbound.tar.gz
+curl -L https://nlnetlabs.nl/downloads/unbound/unbound-1.16.0.tar.gz -o unbound.tar.gz

@@ -1,2 +1,2 @@
 cd "$1"
-su -c "cp meson.py /usr/bin/meson; mkdir /usr/lib/python3.10/site-packages/mesonbuild/; cp -rv mesonbuild/ /usr/lib/python3.10/site-packages/"
+su -c "cp meson.py "$2"/bin/meson; mkdir "$2"/lib/python3.10/site-packages/mesonbuild/; cp -rv mesonbuild/ "$2"/lib/python3.10/site-packages/"

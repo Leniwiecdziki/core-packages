@@ -1,2 +1,2 @@
 cd "$1"
-make CMAKE_BUILD_TYPE=RelWithDebInfo
+make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX="$2"

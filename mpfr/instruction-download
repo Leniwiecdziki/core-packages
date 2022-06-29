@@ -1,2 +1,2 @@
 cd "$1"
-curl https://www.mpfr.org/mpfr-current/mpfr-4.1.0.tar.xz -o mpfr.tar.xz
+curl -L https://www.mpfr.org/mpfr-current/mpfr-4.1.0.tar.xz -o mpfr.tar.xz

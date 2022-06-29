@@ -1,4 +1,4 @@
 cd "$1"
 mkdir build
 cd build
-../configure
+../configure --prefix="$2"

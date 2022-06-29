@@ -1,2 +1,2 @@
 cd "$1"
-curl https://codeload.github.com/aristocratos/btop/tar.gz/refs/tags/v1.2.6 -o btop.tar.gz
+curl -L https://codeload.github.com/aristocratos/btop/tar.gz/refs/tags/v1.2.7 -o btop.tar.gz

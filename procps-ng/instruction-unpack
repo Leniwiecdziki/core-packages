@@ -1,2 +1,5 @@
 cd "$1"
-echo Nothing to do
+tar xfv procps-ng.tar.gz
+rm procps-ng.tar.gz
+mv procps-ng-* procps-ng
+rm -rfv procps-ng-*

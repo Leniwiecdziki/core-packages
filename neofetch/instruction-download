@@ -1,2 +1,2 @@
 cd "$1"
-curl https://codeload.github.com/dylanaraps/neofetch/tar.gz/refs/tags/7.1.0 -o neofetch.tar.gz
+curl -L https://codeload.github.com/dylanaraps/neofetch/tar.gz/refs/tags/7.1.0 -o neofetch.tar.gz

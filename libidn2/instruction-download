@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/libidn/libidn2-latest.tar.gz -o libidn2.tar.gz
+curl -L https://ftp.gnu.org/gnu/libidn/libidn2-latest.tar.gz -o libidn2.tar.gz

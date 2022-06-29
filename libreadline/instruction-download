@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/readline/readline-8.1.2.tar.gz -o libreadline.tar.gz
+curl -L https://ftp.gnu.org/gnu/readline/readline-8.1.2.tar.gz -o libreadline.tar.gz

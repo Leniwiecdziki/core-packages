@@ -1,2 +1,2 @@
 cd "$1"
-curl https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2 -o npth.tar.bz2
+curl -L https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2 -o npth.tar.bz2

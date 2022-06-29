@@ -1,2 +1,2 @@
 cd "$1"
-curl https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.gz -o ruby.tar.gz
+curl -L https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.2.tar.gz -o ruby.tar.gz

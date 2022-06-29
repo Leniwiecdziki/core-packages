@@ -1,4 +1,4 @@
 cd "$1"
 mkdir python-pip
 cd python-pip
-wget https://bootstrap.pypa.io/get-pip.py
+curl -L https://bootstrap.pypa.io/get-pip.py -o get-pip.py

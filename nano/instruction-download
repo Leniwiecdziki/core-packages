@@ -1,2 +1,2 @@
 cd "$1"
-curl https://www.nano-editor.org/dist/v6/nano-6.3.tar.gz -o nano.tar.gz
+curl -L https://www.nano-editor.org/dist/v6/nano-6.3.tar.gz -o nano.tar.gz

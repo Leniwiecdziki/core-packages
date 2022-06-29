@@ -1,2 +1,2 @@
 cd "$1"
-curl https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.0.tar.bz2 -o libksba.tar.bz2
+curl -L https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.0.tar.bz2 -o libksba.tar.bz2

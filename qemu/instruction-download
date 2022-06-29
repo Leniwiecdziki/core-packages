@@ -1,2 +1,2 @@
 cd "$1"
-curl https://download.qemu.org/qemu-7.0.0.tar.xz -o qemu.tar.xz
+curl -L https://download.qemu.org/qemu-7.0.0.tar.xz -o qemu.tar.xz

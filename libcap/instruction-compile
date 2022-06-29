@@ -1,2 +1,2 @@
 cd "$1"
-make -C pam_cap
+make -C pam_cap prefix=/usr SBINDIR=/sbin PAM_LIBDIR=/lib

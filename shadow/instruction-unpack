@@ -1,2 +1,5 @@
 cd "$1"
-echo Nothing to do
+tar xfv shadow.tar.xz
+rm shadow.tar.xz
+mv shadow-*/* shadow
+rm -rfv shadow-*

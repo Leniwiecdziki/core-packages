@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/wget/wget-1.21.3.tar.gz -o wget.tar.gz
+curl -L https://ftp.gnu.org/gnu/wget/wget-1.21.3.tar.gz -o wget.tar.gz

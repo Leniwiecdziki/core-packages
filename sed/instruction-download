@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/sed/sed-4.8.tar.gz -o sed.tar.gz
+curl -L https://ftp.gnu.org/gnu/sed/sed-4.8.tar.gz -o sed.tar.gz

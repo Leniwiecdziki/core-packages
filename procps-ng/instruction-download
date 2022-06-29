@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://gitlab.com/procps-ng/procps.git -b v4.0.0 procps-ng
+curl -L https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-4.0.0.tar.xz -o procps-ng.tar.gz

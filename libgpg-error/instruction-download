@@ -1,2 +1,2 @@
 cd "$1"
-curl https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.45.tar.bz2 -o libgpg-error.tar.bz2
+curl -L https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.45.tar.bz2 -o libgpg-error.tar.bz2

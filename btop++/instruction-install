@@ -1,2 +1,2 @@
 cd "$1"
-su -c "make install && make setuid"
+su -c "make install PREFIX=$2 && make setuid"

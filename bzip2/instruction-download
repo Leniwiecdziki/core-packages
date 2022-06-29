@@ -1,2 +1,2 @@
 cd "$1"
-curl https://sourceware.org/pub/bzip2/bzip2-latest.tar.gz -o bzip2.tar.gz
+curl -L https://sourceware.org/pub/bzip2/bzip2-latest.tar.gz -o bzip2.tar.gz

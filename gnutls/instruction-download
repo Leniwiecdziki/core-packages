@@ -1,2 +1,2 @@
 cd "$1"
-curl https://www.gnupg.org/ftp/gcrypt/gnutls/v3.7/gnutls-3.7.6.tar.xz -o gnutls.tar.xz
+curl -L https://www.gnupg.org/ftp/gcrypt/gnutls/v3.7/gnutls-3.7.6.tar.xz -o gnutls.tar.xz

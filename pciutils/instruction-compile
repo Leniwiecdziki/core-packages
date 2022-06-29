@@ -1,2 +1,2 @@
 cd "$1"
-make
+make PREFIX="$2" SHARED=yes

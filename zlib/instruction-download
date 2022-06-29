@@ -1,2 +1,2 @@
 cd "$1"
-curl http://zlib.net/zlib-1.2.12.tar.gz -o zlib.tar.gz
+curl -L http://zlib.net/zlib-1.2.12.tar.gz -o zlib.tar.gz

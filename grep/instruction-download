@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/grep/grep-3.7.tar.gz -o grep.tar.gz
+curl -L https://ftp.gnu.org/gnu/grep/grep-3.7.tar.gz -o grep.tar.gz

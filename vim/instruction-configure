@@ -1,2 +1,2 @@
 cd "$1"
-./configure --disable-gui
+./configure --disable-gui --prefix="$2"

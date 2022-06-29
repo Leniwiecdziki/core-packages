@@ -1,2 +1,2 @@
 cd "$1"
-curl https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.64.tar.xz -o libcap.tar.xz
+curl -L https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.64.tar.xz -o libcap.tar.xz

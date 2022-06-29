@@ -1,2 +1,2 @@
 cd "$1"
-curl https://sunsite.icm.edu.pl/pub/gnu/libtool/libtool-2.4.7.tar.gz -o libtool.tar.gz
+curl -L https://sunsite.icm.edu.pl/pub/gnu/libtool/libtool-2.4.7.tar.gz -o libtool.tar.gz

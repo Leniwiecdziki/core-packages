@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz -o gzip.tar.gz
+curl -L https://ftp.gnu.org/gnu/gzip/gzip-1.12.tar.gz -o gzip.tar.gz

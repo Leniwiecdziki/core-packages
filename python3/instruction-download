@@ -1,2 +1,2 @@
 cd "$1"
-curl https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz -o python3.tar.gz
+curl -L https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz -o python3.tar.gz

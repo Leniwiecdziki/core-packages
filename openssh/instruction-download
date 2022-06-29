@@ -1,2 +1,2 @@
 cd "$1"
-curl https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz -o openssh.tar.gz
+curl -L https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.0p1.tar.gz -o openssh.tar.gz

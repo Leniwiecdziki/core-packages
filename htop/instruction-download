@@ -1,2 +1,2 @@
 cd "$1"
-curl https://codeload.github.com/htop-dev/htop/tar.gz/refs/tags/3.2.1 -o htop.tar.gz
+curl -L https://codeload.github.com/htop-dev/htop/tar.gz/refs/tags/3.2.1 -o htop.tar.gz

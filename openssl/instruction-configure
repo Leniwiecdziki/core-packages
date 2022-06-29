@@ -1,2 +1,2 @@
 cd "$1"
-./Configure
+./Configure --prefix="$2"

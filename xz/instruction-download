@@ -1,2 +1,2 @@
 cd "$1"
-curl https://fossies.org/linux/misc/xz-5.2.5.tar.xz -o xz.tar.gz
+curl -L https://fossies.org/linux/misc/xz-5.2.5.tar.xz -o xz.tar.gz

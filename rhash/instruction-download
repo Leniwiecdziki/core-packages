@@ -1,2 +1,2 @@
 cd "$1"
-curl https://netcologne.dl.sourceforge.net/project/rhash/rhash/1.4.2/rhash-1.4.2-src.tar.gz -o rhash.tar.gz
+curl -L https://netcologne.dl.sourceforge.net/project/rhash/rhash/1.4.2/rhash-1.4.2-src.tar.gz -o rhash.tar.gz

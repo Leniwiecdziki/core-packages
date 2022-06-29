@@ -1,5 +1,5 @@
 cd "$1"
 mkdir build
 cd build
-cmake ..
+cmake .. -DCMAKE_INSTALL_PREFIX="$2"
 make

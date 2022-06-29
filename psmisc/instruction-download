@@ -1,2 +1,2 @@
 cd "$1"
-curl https://netcologne.dl.sourceforge.net/project/psmisc/psmisc/psmisc-23.5.tar.xz -o psmisc.tar.xz
+curl -L https://netcologne.dl.sourceforge.net/project/psmisc/psmisc/psmisc-23.5.tar.xz -o psmisc.tar.xz

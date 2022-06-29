@@ -1,2 +1,2 @@
 cd "$1"
-curl https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.gz -o gnu-toolchain-autoconf.tar.gz
+curl -L https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.gz -o gnu-toolchain-autoconf.tar.gz

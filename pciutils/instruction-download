@@ -1,2 +1,2 @@
 cd "$1"
-curl https://mj.ucw.cz/download/linux/pci/pciutils-3.8.0.tar.gz -o pciutils.tar.gz
+curl -L https://mj.ucw.cz/download/linux/pci/pciutils-3.8.0.tar.gz -o pciutils.tar.gz

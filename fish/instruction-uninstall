@@ -1,3 +1,3 @@
 cd "$1"
 echo "Removing files..."
-su -c "rm -rfv /usr/local/share/doc/fish /usr/local/share/fish /usr/local/etc/fish /usr/local/bin/fish "
+su -c "rm -rfv "$2"/share/doc/fish "$2"/share/fish "$2"/etc/fish "$2"/bin/fish "

@@ -1,2 +1,2 @@
 cd "$1"
-su -c "cp pfetch /bin/pfetch"
+su -c "cp pfetch $2/bin/pfetch"

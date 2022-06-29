@@ -1,2 +1,2 @@
 cd "$1"
-git clone https://gitlab.kitware.com/cmake/cmake.git -b v3.23.2
+curl -L https://github.com/Kitware/CMake/releases/download/v3.23.2/cmake-3.23.2.tar.gz -o cmake.tar.gz

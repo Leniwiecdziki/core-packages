@@ -1,2 +1,5 @@
 cd "$1"
-echo Nothing to do
+tar xfv cmake.tar.gz
+rm cmake.tar.gz
+mv cmake-/* cmake
+rm -rfv cmake-*
