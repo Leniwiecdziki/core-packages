@@ -1,2 +1,2 @@
 cd "$1"
-curl -L ftp://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2 -o vim.tar.bz2
+curl -L ftp://ftp.vim.org/pub/vim/unix/vim-9.0.tar.bz2 -o vim.tar.bz2
